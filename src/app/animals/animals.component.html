@@ -1,0 +1,11 @@
+<div>
+	Here are all the animals!
+	<ul>
+		<li *ngFor="let animal of animals">
+			<app-view-animal [animal]="animal" (delete)="eraseAnimal($event)"></app-view-animal>
+		</li>
+	</ul>
+	<input [(ngModel)]="newAnimalName" placeholder="Animal name" />
+	<input [(ngModel)]="newAnimalColor" placeholder="Animal color" />
+	<button (click)="addAnimal()">Add animal</button>
+</div>

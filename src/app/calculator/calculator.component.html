@@ -1,0 +1,11 @@
+<div>
+	<!--<input [(ngModel)]="leftOperand" />--> ?
+	<input type="text" value="1" (change)="tbChangeLeftOp($event)" />--> ?
+	<input type="text" value="7" (change)="tbChangeRightOp($event)" /> =
+	<span>{{ answer }}</span> {{leftOperand}} {{rightOperand}}
+	<br />
+	<button (click)="add()">Add!</button>
+	<button (click)="subtract()">Subtract</button>
+	<button (click)="multiply()">Multiply</button>
+	<button (click)="divide()">Divide</button>
+</div>

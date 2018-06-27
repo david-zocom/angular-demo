@@ -1,0 +1,23 @@
+input, button, span {
+	padding : 4px;
+	border: 1px solid darkgray;
+	border-radius: 4px;
+	width: 4em;
+}
+input, span {
+	padding-left: 6px;
+}
+span {
+	display: inline-block;
+	font-size: 0.9em;
+	border-color: lightgray;
+}
+input {
+	margin: 10px;
+}
+
+button {
+	margin: 10px;
+	background-color: lightgray;
+	width: 5em;
+}
